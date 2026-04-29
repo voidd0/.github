@@ -12,40 +12,62 @@ independent software studio shipping tools, games and infrastructure. no venture
 |---|---|---|
 | **scrb** | ai product description generator for e-commerce | [scrb.voiddo.com](https://scrb.voiddo.com/) |
 | **rankd** | ai culture judge — tier letter + verdict in 4 seconds | [rankd.voiddo.com](https://rankd.voiddo.com/) |
-| **void factory** | top-down wave defense in a collapsing void | [play.voiddo.com](https://play.voiddo.com/) |
-| **gridlock** | block puzzle with elo, daily and tournaments | [games.voiddo.com/gridlock](https://games.voiddo.com/gridlock/) |
+| **void factory** | factory-builder roguelike with a dark sense of humour | [play.voiddo.com](https://play.voiddo.com/) |
+| **gridlock** | minimalist block puzzle on a 4×4 grid | [games.voiddo.com/gridlock](https://games.voiddo.com/gridlock/) |
 | **fe2o3.io** | a study in patient decay — you are the formula of rust | [games.voiddo.com/fe2o3](https://games.voiddo.com/fe2o3/) |
+
+---
+
+## browser extensions
+
+six chrome / firefox / edge extensions. paid + free. zero-tracking, manifest v3, vendor-agnostic copy. the AI-flavoured ones run through one studio backend with hard daily caps so we never lose money on a runaway prompt.
+
+| extension | what it does |
+|---|---|
+| [interviewprep](https://github.com/voidd0/interviewprep) | open a job posting → 5 likely questions + STAR answer scaffolds + company card |
+| [jobmeta](https://github.com/voidd0/jobmeta) | one-click ATS autofill across 11 platforms + AI cover letter |
+| [pricepulse](https://github.com/voidd0/pricepulse) | watch competitor SaaS pricing pages and get notified when they move |
+| [tabsnap](https://github.com/voidd0/tabsnap) | format your open tabs as markdown / readme / json — free forever |
+| [tokcount](https://github.com/voidd0/tokcount) | count LLM tokens for any URL or selection — Claude / GPT / Gemini |
+| [randumb](https://github.com/voidd0/randumb) | random numbers, dice, picks, names, lorem — context-menu based |
+
+Listings live at [extensions.voiddo.com](https://extensions.voiddo.com/).
 
 ---
 
 ## free dev tools
 
-eighteen open-source command-line utilities under [`@v0idd0/*`](https://www.npmjs.com/org/v0idd0) on npm. small, single-purpose, zero-tracking. solve one infrastructure headache each, install in one line.
+twenty-one open-source command-line utilities under [`@v0idd0/*`](https://www.npmjs.com/org/v0idd0) on npm. small, single-purpose, zero-tracking. solve one infrastructure headache each, install in one line.
 
 | tool | what it does |
 |---|---|
 | [cronwtf](https://github.com/voidd0/cronwtf) | decode any cron expression in plain english |
 | [ctxstuff](https://github.com/voidd0/ctxstuff) | pack context for LLM prompts, token-aware |
-| [depcheck](https://github.com/voidd0/depcheck) | audit npm dependencies (unused/missing/outdated) |
+| [depcheck](https://github.com/voidd0/depcheck) | audit npm dependencies (unused / missing / outdated) |
 | [dotdig](https://github.com/voidd0/dotdig) | DNS lookup for humans, formatted output |
 | [envguard](https://github.com/voidd0/envguard) | validate `.env` files against a schema |
 | [fakeit](https://github.com/voidd0/fakeit) | generate seedable fake test data |
 | [gitstats](https://github.com/voidd0/gitstats) | git contribution stats by author / file / hour |
+| [gitwhen](https://github.com/voidd0/gitwhen) | pinpoint when a string entered or left a repo |
 | [httpwut](https://github.com/voidd0/httpwut) | explain any HTTP status or header, cited to RFC |
 | [jsonyo](https://github.com/voidd0/jsonyo) | format, query and validate JSON — simpler than jq |
 | [licenseme](https://github.com/voidd0/licenseme) | generate a LICENSE file in seconds |
-| [logparse](https://github.com/voidd0/logparse) | parse nginx/apache/syslog into structured records |
+| [logparse](https://github.com/voidd0/logparse) | parse nginx / apache / syslog into structured records |
+| [passgen](https://github.com/voidd0/passgen) | secure passwords + diceware passphrases — zero deps |
 | [portcheck](https://github.com/voidd0/portcheck) | see what's listening on local ports |
 | [promptdiff](https://github.com/voidd0/promptdiff) | diff two LLM prompts at the token level |
-| [randumb](https://github.com/voidd0/randumb) | random numbers / dice / lottery in your browser |
 | [regexlab](https://github.com/voidd0/regexlab) | explain any regex pattern in plain english |
+| [secscan](https://github.com/voidd0/secscan) | find accidentally-committed secrets across a repo |
 | [slugmint](https://github.com/voidd0/slugmint) | i18n-aware URL slug generator |
-| [tokcount](https://github.com/voidd0/tokcount) | count LLM tokens and estimate cost |
-| [tzdiff](https://github.com/voidd0/tzdiff) | compare timezones side by side |
+| [sslcheck](https://github.com/voidd0/sslcheck) | inspect TLS certificates from CLI — expiry / chain / SAN |
+| [timecheck](https://github.com/voidd0/timecheck) | convert timestamps between formats / timezones |
+| [tzdiff](https://github.com/voidd0/tzdiff) | compare timezones side by side — meeting planner |
 
 ```bash
 npm i -g @v0idd0/cronwtf @v0idd0/jsonyo @v0idd0/regexlab
 ```
+
+Hub at [tools.voiddo.com](https://tools.voiddo.com/).
 
 ---
 
@@ -54,9 +76,13 @@ npm i -g @v0idd0/cronwtf @v0idd0/jsonyo @v0idd0/regexlab
 - **we ship early.** code on a local machine is a liability.
 - **metrics are the only truth.** server logs and conversion rates do not lie.
 - **craft requires discipline.** staying small forces us to automate and write code we can read in a year.
+- **everything one studio backend.** every AI-flavoured product routes through the same Gemini chokepoint with hard daily / monthly caps. one bug fix patches every product.
+- **no lifetime deals.** recurring subscriptions only. windfalls are windfalls, not pillars.
 
 ---
 
-Built by vøiddo, a small studio shipping AI-flavoured tools, browser extensions and weird browser games.
+[website](https://voiddo.com/) · [tools](https://tools.voiddo.com/) · [extensions](https://extensions.voiddo.com/) · [games](https://games.voiddo.com/) · [contact](https://voiddo.com/contact/) · [npm](https://www.npmjs.com/org/v0idd0)
 
-[website](https://voiddo.com) · [tools](https://tools.voiddo.com) · [extensions](https://extensions.voiddo.com) · [games](https://games.voiddo.com) · [contact](https://voiddo.com/contact/)
+---
+
+Built by [vøiddo](https://voiddo.com/) — a small studio shipping AI-flavoured products, free dev tools, Chrome extensions and weird browser games.
