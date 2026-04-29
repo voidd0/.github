@@ -1,4 +1,27 @@
+<!--
+  ╭───────────────────────────────────────────────────────────╮
+  │  hello, source-viewer.                                    │
+  │                                                           │
+  │  if you're reading this, you're our kind of weird.        │
+  │  send us something you built: hi@voiddo.com               │
+  │  (we read everything. we reply to most.)                  │
+  │                                                           │
+  │  no hidden recruiter pings. no tracking pixel.            │
+  │  just a comment, because the void deserves an easter egg. │
+  ╰───────────────────────────────────────────────────────────╯
+-->
+
 # vøiddo
+
+```
+        ██╗   ██╗ ██████╗ ██╗██████╗ ██████╗  ██████╗
+        ██║   ██║██╔═══██╗██║██╔══██╗██╔══██╗██╔═══██╗
+        ██║   ██║██║   ██║██║██║  ██║██║  ██║██║   ██║
+        ╚██╗ ██╔╝██║   ██║██║██║  ██║██║  ██║██║   ██║
+         ╚████╔╝ ╚██████╔╝██║██████╔╝██████╔╝╚██████╔╝
+          ╚═══╝   ╚═════╝ ╚═╝╚═════╝ ╚═════╝  ╚═════╝
+                  building software in the vøid
+```
 
 **building software in the vøid.**
 
@@ -71,6 +94,18 @@ Hub at [tools.voiddo.com](https://tools.voiddo.com/).
 
 ---
 
+## shipped this week
+
+*refreshed 2026-04-29 · manual update, not a feed*
+
+- **interviewprep extension** — Tier 1 monetized launch. landing + 5 paddle pages + drop bundle live.
+- **tabsnap** — extension + npm CLI dual-surface. one engine, two faces. drop ready for AMO + Edge first.
+- **GH+NPM canon locked** — 7-stage pre-ship gate, footer enforcement across 27 repos via pre-commit hook, README anti-anorexia rewrites.
+- **org cross-promo sync** — `from-the-studio.md` shipped to all 27 repos with quarterly refresh cadence.
+- **org pinning curated** — 6 flagship repos pinned: jobmeta, interviewprep, pricepulse, tabsnap, regexlab, secscan.
+
+---
+
 ## how we operate
 
 - **we ship early.** code on a local machine is a liability.
@@ -78,6 +113,17 @@ Hub at [tools.voiddo.com](https://tools.voiddo.com/).
 - **craft requires discipline.** staying small forces us to automate and write code we can read in a year.
 - **everything one studio backend.** every AI-flavoured product routes through the same Gemini chokepoint with hard daily / monthly caps. one bug fix patches every product.
 - **no lifetime deals.** recurring subscriptions only. windfalls are windfalls, not pillars.
+
+---
+
+## what we don't do
+
+- **no venture capital.** no board, no growth-at-all-costs, no exit timeline. revenue funds the next thing we build.
+- **no tracking, no analytics SDKs.** server logs and Stripe-equivalent receipts are enough. nobody at vøiddo needs to know which button you hovered.
+- **no lifetime deals, no AppSumo as a strategy.** windfalls are accepted, never planned around. recurring is the only sustainable shape.
+- **no cargo-cult AI.** if a feature works better as `awk` or a regex, it ships as `awk` or a regex. AI gets pulled in only when the alternative is genuinely worse.
+- **no platform lock-in.** chrome extensions also build for firefox + edge from day one. CLIs run on darwin / linux / win32. data exports as json / markdown by default.
+- **no over-promising.** if the README says "30 lines of code, zero deps", the package on npm is 30 lines of code with zero deps. claims and reality match or the README gets rewritten.
 
 ---
 
