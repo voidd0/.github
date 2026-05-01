@@ -134,13 +134,26 @@ hub at [tools.voiddo.com](https://tools.voiddo.com/).
 
 ---
 
+## wordpress plugins
+
+same studio backend, different distribution surface. wordpress sellers don't install chrome extensions and don't paste into web apps — they want a button inside their wp-admin. so we ship one.
+
+| plugin | what it does | status |
+|---|---|---|
+| **scrb-ai-product-descriptions** | scrb's product description generator as a wp plugin — woocommerce-aware, 25 languages, same daily caps as the web app | live on wordpress.org |
+| **rankd-content-quality-scorer** | rankd's quality verdict for posts and pages, in the editor sidebar | v1.0.0 built, queued behind scrb (wp.org one-plugin-at-a-time policy) |
+
+we ship one wp plugin at a time, deliberately. the directory rejects spam and we'd rather pass review than rush submissions.
+
+---
+
 ## the games
 
 we make eight. nothing pay-to-win, nothing seasonal-FOMO, nothing that asks for your phone number.
 
 | game | the one-line | live at |
 |---|---|---|
-| **void factory** | factory-builder roguelike with a dark sense of humour | [play.voiddo.com](https://play.voiddo.com/) (mobile app) |
+| **void factory** | factory-builder roguelike with a dark sense of humour · also playable as android app at [play.voiddo.com](https://play.voiddo.com/) | [games.voiddo.com/void-factory](https://games.voiddo.com/void-factory/) |
 | **gridlock** | minimalist block puzzle on a 4×4 grid | [games.voiddo.com/gridlock](https://games.voiddo.com/gridlock/) |
 | **fe2o3.io** | a study in patient decay — you are the formula of rust | [games.voiddo.com/fe2o3](https://games.voiddo.com/fe2o3/) |
 | **mergebench** | anti-dark-pattern merge puzzle, walnut + brass clockmaker noir | [games.voiddo.com/mergebench](https://games.voiddo.com/mergebench/) |
