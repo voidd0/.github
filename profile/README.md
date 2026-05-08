@@ -35,7 +35,7 @@ these are the things we'd actually like to pay rent with.
 |---|---|---|
 | **scrb** | ai product description generator for amazon / etsy / shopify sellers — 25 languages, no chatgpt copy-pasting, no per-listing tax | [scrb.voiddo.com](https://scrb.voiddo.com/) |
 | **rankd** | "the internet's meanest culture judge" — feed it a movie / game / book / album, get a tier letter and a one-liner that ruins your weekend | [rankd.voiddo.com](https://rankd.voiddo.com/) |
-| **tells** | forensic ai for reading what people don't say — read a message, read a person, read a profile · waitlist open | [voiddo.com/tells](https://voiddo.com/tells/) |
+| **tells** | language-first ai for reading what people leave unsaid — read a message, read a person, read a profile · live now | [tells.voiddo.com](https://tells.voiddo.com/) |
 
 ---
 
