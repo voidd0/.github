@@ -1,35 +1,59 @@
 # vøiddo
 
-Small command line tools for developers, published on npm under `@v0idd0`. Each one does a single job, with no account and no hosted service behind it.
+We build data scrapers and small command line tools, and we run the scrapers for people who would rather receive a file.
+
+## Data
+
+**[Scrapers on the Apify Store](https://apify.com/v0iddo).** Job boards, shops and marketplaces, app stores, ad libraries, maps, reviews and public registries. Each one takes a JSON input and returns rows you can download as CSV, JSON or Excel, or call from Python, Node.js or curl. You run them from your own Apify account and pay per result.
+
+- The full list with prices per 1,000 results: [apify-actors](https://github.com/voidd0/apify-actors)
+- A guide per scraper, with the output fields and ready inputs: [voidd0.github.io](https://voidd0.github.io/)
+- Skills that let Claude Code, Codex, Copilot or Cursor pick and run the right scraper: [apify-skills](https://github.com/voidd0/apify-skills)
+- Working example code for single scrapers: the repositories named `*-scraper` below
+
+**[Data to order](https://voiddo.com/data/?src=gh).** Name a site and a search, and we run the scraper and email you the rows as CSV, Excel and JSON at a fixed price. You can ask for 50 rows of your own search first, at no charge.
+
+**[data-samples](https://github.com/voidd0/data-samples).** Real rows from a real run, as CSV and JSON, so you can see the columns before you order.
+
+## Command line tools
+
+Small tools on npm under `@v0idd0`, each doing one job. Most have no dependencies, every one is tested on Node.js 18, 20, 22 and 24, and all are MIT licensed. Try one without installing:
 
 ```bash
-npm i -g @v0idd0/cronwtf
+npx @v0idd0/jsonyo --help
+npx @v0idd0/sslcheck example.com
 ```
 
-| tool | what it does | npm |
-|---|---|---|
-| [cronwtf](https://github.com/voidd0/cronwtf) | explain cron expressions in plain English | [@v0idd0/cronwtf](https://www.npmjs.com/package/@v0idd0/cronwtf) |
-| [ctxstuff](https://github.com/voidd0/ctxstuff) | pack a directory into one context file for LLM prompts | [@v0idd0/ctxstuff](https://www.npmjs.com/package/@v0idd0/ctxstuff) |
-| [depcheck](https://github.com/voidd0/depcheck) | find unused and missing npm and Python dependencies | [@v0idd0/depcheck](https://www.npmjs.com/package/@v0idd0/depcheck) |
-| [dotdig](https://github.com/voidd0/dotdig) | DNS lookups from the command line | [@v0idd0/dotdig](https://www.npmjs.com/package/@v0idd0/dotdig) |
-| [envguard](https://github.com/voidd0/envguard) | validate .env files against a schema | [@v0idd0/envguard](https://www.npmjs.com/package/@v0idd0/envguard) |
-| [gitstats](https://github.com/voidd0/gitstats) | local git statistics and hotspots | [@v0idd0/gitstats](https://www.npmjs.com/package/@v0idd0/gitstats) |
-| [gitwhen](https://github.com/voidd0/gitwhen) | find when a string, line or file changed | [@v0idd0/gitwhen](https://www.npmjs.com/package/@v0idd0/gitwhen) |
-| [httpwut](https://github.com/voidd0/httpwut) | debug HTTP requests with timing and redirects | [@v0idd0/httpwut](https://www.npmjs.com/package/@v0idd0/httpwut) |
-| [jsonyo](https://github.com/voidd0/jsonyo) | validate, query and convert JSON | [@v0idd0/jsonyo](https://www.npmjs.com/package/@v0idd0/jsonyo) |
-| [licenseme](https://github.com/voidd0/licenseme) | generate a LICENSE file | [@v0idd0/licenseme](https://www.npmjs.com/package/@v0idd0/licenseme) |
-| [logparse](https://github.com/voidd0/logparse) | parse and aggregate log files | [@v0idd0/logparse](https://www.npmjs.com/package/@v0idd0/logparse) |
-| [passgen](https://github.com/voidd0/passgen) | passwords and passphrases with entropy | [@v0idd0/passgen](https://www.npmjs.com/package/@v0idd0/passgen) |
-| [portcheck](https://github.com/voidd0/portcheck) | list local listening ports and their processes | [@v0idd0/portcheck](https://www.npmjs.com/package/@v0idd0/portcheck) |
-| [promptdiff](https://github.com/voidd0/promptdiff) | compare versions of an LLM prompt | [@v0idd0/promptdiff](https://www.npmjs.com/package/@v0idd0/promptdiff) |
-| [randumb](https://github.com/voidd0/randumb) | locale consistent random test data | [@v0idd0/randumb](https://www.npmjs.com/package/@v0idd0/randumb) |
-| [regexlab](https://github.com/voidd0/regexlab) | explain regex patterns token by token | [@v0idd0/regexlab](https://www.npmjs.com/package/@v0idd0/regexlab) |
-| [secscan](https://github.com/voidd0/secscan) | find committed credentials in a source tree | [@v0idd0/secscan](https://www.npmjs.com/package/@v0idd0/secscan) |
-| [slugmint](https://github.com/voidd0/slugmint) | URL slugs for many scripts | [@v0idd0/slugmint](https://www.npmjs.com/package/@v0idd0/slugmint) |
-| [sslcheck](https://github.com/voidd0/sslcheck) | inspect TLS certificates | [@v0idd0/sslcheck](https://www.npmjs.com/package/@v0idd0/sslcheck) |
-| [tabsnap](https://github.com/voidd0/tabsnap) | format a browser tab list as markdown, text or JSON | [@v0idd0/tabsnap](https://www.npmjs.com/package/@v0idd0/tabsnap) |
-| [timecheck](https://github.com/voidd0/timecheck) | convert unix timestamps | [@v0idd0/timecheck](https://www.npmjs.com/package/@v0idd0/timecheck) |
-| [tokcount](https://github.com/voidd0/tokcount) | count tokens and estimate cost for LLM prompts | [@v0idd0/tokcount](https://www.npmjs.com/package/@v0idd0/tokcount) |
-| [tzdiff](https://github.com/voidd0/tzdiff) | compare time zones side by side | [@v0idd0/tzdiff](https://www.npmjs.com/package/@v0idd0/tzdiff) |
+| tool | what it does |
+|---|---|
+| [cronwtf](https://github.com/voidd0/cronwtf) | explain a cron expression in plain English and list its next runs |
+| [ctxstuff](https://github.com/voidd0/ctxstuff) | pack a code directory into one context file for LLM prompts |
+| [depcheck](https://github.com/voidd0/depcheck) | find unused and missing npm and Python dependencies |
+| [dotdig](https://github.com/voidd0/dotdig) | DNS lookups, optionally through a chosen public resolver |
+| [envguard](https://github.com/voidd0/envguard) | validate a .env file against a typed schema |
+| [gitstats](https://github.com/voidd0/gitstats) | lines of code, commits over time and hotspots of a git repository |
+| [gitwhen](https://github.com/voidd0/gitwhen) | find when a string, a line or a file changed in git history |
+| [httpwut](https://github.com/voidd0/httpwut) | an HTTP request with its timing breakdown and redirect chain |
+| [jsonyo](https://github.com/voidd0/jsonyo) | validate, format, query, diff and convert JSON |
+| [licenseme](https://github.com/voidd0/licenseme) | write a LICENSE file, or detect the license of a project |
+| [logparse](https://github.com/voidd0/logparse) | parse, filter and count log lines (JSON, nginx, apache, plain) |
+| [passgen](https://github.com/voidd0/passgen) | passwords and passphrases with an entropy estimate |
+| [portcheck](https://github.com/voidd0/portcheck) | the ports your machine listens on, with the owning process |
+| [promptdiff](https://github.com/voidd0/promptdiff) | compare two versions of an LLM prompt |
+| [randumb](https://github.com/voidd0/randumb) | random test data that fits one locale |
+| [regexlab](https://github.com/voidd0/regexlab) | explain a regular expression token by token |
+| [secscan](https://github.com/voidd0/secscan) | find credentials committed by accident |
+| [slugmint](https://github.com/voidd0/slugmint) | URL slugs from titles in many scripts |
+| [sslcheck](https://github.com/voidd0/sslcheck) | inspect the TLS certificate of a host |
+| [tabsnap](https://github.com/voidd0/tabsnap) | format a browser tab list as markdown, text or JSON |
+| [timecheck](https://github.com/voidd0/timecheck) | convert unix and ISO timestamps |
+| [tokcount](https://github.com/voidd0/tokcount) | estimate LLM tokens and input cost per model |
+| [tzdiff](https://github.com/voidd0/tzdiff) | the time in several time zones side by side |
 
-Issues and pull requests are welcome in each repository. Every tool carries its own license file.
+The same list with live output: [voiddo.com/packages](https://voiddo.com/packages/?src=gh).
+
+## Contact
+
+Issues and pull requests are welcome in each repository. Anything else: [support@voiddo.com](mailto:support@voiddo.com) or [voiddo.com](https://voiddo.com/?src=gh).
+
+The repositories marked archived are hackathon entries from May 2026, kept as a record.
