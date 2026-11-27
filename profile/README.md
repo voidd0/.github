@@ -1,6 +1,15 @@
+<p align="center"><img src="https://raw.githubusercontent.com/voidd0/.github/main/profile/banner.png" alt="vøiddo: public web data, delivered clean" width="100%"></p>
+
 # vøiddo
 
-We build data scrapers and small command line tools, and we run the scrapers for people who would rather receive a file.
+**Public web data, delivered clean.** We build scrapers, run them for people who would rather receive a file, publish
+the data we collect, and keep a shelf of small command line tools. Our scrapers and AI agents do the legwork; Egor
+Michurin answers for every file that leaves.
+
+**98** scrapers on the [Apify Store](https://apify.com/v0iddo) · **23** command line tools on
+[npm](https://www.npmjs.com/~v0idd0) · **11** puzzle books on [Amazon](https://voiddo.com/books/?src=gh) ·
+weekly salary data for Poland, Mexico and Colombia in [data-samples](https://github.com/voidd0/data-samples)
+<sub>(counted 2026-11-27)</sub>
 
 ## Data
 
@@ -9,11 +18,12 @@ We build data scrapers and small command line tools, and we run the scrapers for
 - The full list with prices per 1,000 results: [apify-actors](https://github.com/voidd0/apify-actors)
 - A guide per scraper, with the output fields and ready inputs: [voidd0.github.io](https://voidd0.github.io/)
 - Skills that let Claude Code, Codex, Copilot or Cursor pick and run the right scraper: [apify-skills](https://github.com/voidd0/apify-skills)
+- Ready n8n workflows, one per scraper: [n8n-apify-workflows](https://github.com/voidd0/n8n-apify-workflows)
 - Working example code for single scrapers: the repositories named `*-scraper` below
 
 **[Data to order](https://voiddo.com/data/?src=gh).** Name a site and a search, and we run the scraper and email you the rows as CSV, Excel and JSON at a fixed price. You can ask for 50 rows of your own search first, at no charge.
 
-**[data-samples](https://github.com/voidd0/data-samples).** Real rows from a real run, as CSV and JSON, so you can see the columns before you order.
+**[data-samples](https://github.com/voidd0/data-samples).** Real rows from real runs, as CSV and JSON, under CC BY 4.0, so you can see the columns before you order. The weekly salary files are replaced every Monday.
 
 ## Command line tools
 
@@ -52,8 +62,12 @@ npx @v0idd0/sslcheck example.com
 
 The same list with live output: [voiddo.com/packages](https://voiddo.com/packages/?src=gh).
 
+## What we work with
+
+Web scraping · Data extraction · Data cleaning · CSV, Excel and JSON · Google Sheets · Python · TypeScript · JavaScript · Node.js · SQL · PostgreSQL · REST APIs · API integration · Automation · AI agents and LLM integration · MCP servers · Apify actors · Linux · bash · nginx · Web design · Landing pages · Technical SEO · Technical writing · Data analysis · Testing · Puzzle book design.
+
 ## Contact
 
-Issues and pull requests are welcome in each repository. Anything else: [support@voiddo.com](mailto:support@voiddo.com) or [voiddo.com](https://voiddo.com/?src=gh).
+Data orders and samples: [data@voiddo.com](mailto:data@voiddo.com). Issues and pull requests are welcome in each repository. Anything else: [support@voiddo.com](mailto:support@voiddo.com) or [voiddo.com](https://voiddo.com/?src=gh). Terms and privacy: [voiddo.com/terms](https://voiddo.com/terms/) · [voiddo.com/privacy](https://voiddo.com/privacy/).
 
 The repositories marked archived are hackathon entries from May 2026, kept as a record.
