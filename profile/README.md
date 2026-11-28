@@ -6,10 +6,10 @@
 the data we collect, and keep a shelf of small command line tools. Our scrapers and AI agents do the legwork; Egor
 Michurin answers for every file that leaves.
 
-**99** scrapers on the [Apify Store](https://apify.com/v0iddo) · **23** command line tools on
+**100** scrapers on the [Apify Store](https://apify.com/v0iddo) · **23** command line tools on
 [npm](https://www.npmjs.com/~v0idd0) · **11** puzzle books on [Amazon](https://voiddo.com/books/?src=gh) ·
 weekly salary data for Poland, Mexico and Colombia in [data-samples](https://github.com/voidd0/data-samples)
-<sub>(counted 2026-11-27)</sub>
+<sub>(counted 2026-11-28)</sub>
 
 ## Data
 
